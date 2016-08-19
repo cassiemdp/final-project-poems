@@ -1,4 +1,5 @@
 var express 	= require ('express');
+	app			= express();
 	fs			= require('fs');
 	freestyle 	= require('freestyle');
 

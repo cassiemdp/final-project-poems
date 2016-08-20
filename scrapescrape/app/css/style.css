@@ -1,0 +1,124 @@
+body {
+	font-family: 'Helvetica Neue';
+	font-size: 13px;
+	background-color: #eee;
+}
+h2 {
+	color: darkgrey !important;
+}
+
+h4 {
+	font-weight: normal !important;
+}
+
+/*header and header bg, paragraph and h2 class*/
+.jumbotron {
+	height:28vh;
+	border-bottom: 3px dotted lightgray;
+    font-size:25px;   
+}
+	.heart{
+		color:lightpink;
+	}
+
+	.jumboh {
+		margin-top:10px !important;
+		color: darkgrey !important;
+		text-align:center;
+		}
+
+	.jumbop {
+		text-align:center;
+		color: #ffffff !important;
+	}
+
+/*greeting and button*/
+.bodyb{
+	padding-top:10px;
+	position:absolute;
+	width:100%;
+}
+
+	.greeting {
+		position:relative;
+		background-color: #ffffff;
+		text-align:justify;
+		width:80%;
+		padding: 7px 12px;
+	/*	margin-top:30px;
+		margin-left:50px;*/
+		vertical-align:middle;
+	}
+	.buttonb{
+		position: relative;
+		vertical-align:middle !important;
+		width:30%;
+		display:inherit;
+	}
+	.buttonb2{
+		position: relative;
+		vertical-align:middle !important;
+		width:100%;
+		display:inherit;
+	}
+	.ghost-button {
+	color: lightpink;
+	background: #fff;
+	border: 1px solid lightpink;
+	padding: 7px 12px;
+	margin: 6px 0;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: 'Helvetica Neue';
+	text-transform: uppercase;
+	min-width: 120px;
+	transition: all 0.5s ease 0s;
+	}
+
+	.ghost-button:hover, .ghost-button:active {
+	  color:#fff;
+	  background:lightpink;
+	}
+
+/*modal*/
+
+.modal-header{
+	background-color:#eee;
+ 	color:white;
+	border-bottom: 3px dotted lightgray;
+}
+
+.modal-content {
+	background-color:#eee;
+}
+
+.modal-body {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	background-color: #ffffff;
+	width:70%;
+}
+
+	.ghost-button2 {
+	color: lightpink;
+	background: #fff;
+	border: 1px solid lightpink;
+	padding: 7px 12px;
+	margin: 6px 0;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: 'Helvetica Neue';
+	text-transform: uppercase;
+	min-width: 120px;
+	transition: all 0.5s ease 0s;
+	}
+
+	.ghost-button2:hover, .ghost-button2:active {
+	  color:#fff;
+	  background:lightpink;
+	}

@@ -8,11 +8,11 @@
 
 			$routeProvider
 			.when('/home', {
-				templateUrl:'../partials/poem.html',
+				templateUrl:'partials/poem.html',
 				controller:'PoemCtrl as ctrl'
 			})
 			.when('/poem/', {
-				templateUrl:'../partials/poemGen.html',
+				templateUrl:'./../partials/poemGen.html',
 				controller: 'PoemCtrl as ctrl'
 			})
 			.otherwise({

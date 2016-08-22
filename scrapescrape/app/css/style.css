@@ -40,11 +40,12 @@ h4 {
 }
 
 	.greeting {
+		border-radius: 15px 50px;
 		position:relative;
 		background-color: #ffffff;
 		text-align:justify;
 		width:80%;
-		padding: 7px 12px;
+		padding: 20px 23px;
 	/*	margin-top:30px;
 		margin-left:50px;*/
 		vertical-align:middle;
@@ -84,6 +85,12 @@ h4 {
 
 /*modal*/
 
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+ }
+
 .modal-header{
 	background-color:#eee;
  	color:white;
@@ -95,6 +102,7 @@ h4 {
 }
 
 .modal-body {
+	border-radius: 50px 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-top: 5px;
@@ -121,4 +129,8 @@ h4 {
 	.ghost-button2:hover, .ghost-button2:active {
 	  color:#fff;
 	  background:lightpink;
+	}
+
+	.poembody{
+		margin-top:30px;
 	}

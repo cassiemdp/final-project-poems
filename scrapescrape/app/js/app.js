@@ -7,14 +7,12 @@
 		.config(function($routeProvider) {
 
 			$routeProvider
+
 			.when('/home', {
-				templateUrl:'partials/poem.html',
-				controller:'PoemCtrl as ctrl'
+				templateUrl:'app/partials/poem.html',
+				controller:'PoemCtrl as ctrl',
 			})
-			.when('/poem/', {
-				templateUrl:'./../partials/poemGen.html',
-				controller: 'PoemCtrl as ctrl'
-			})
+
 			.otherwise({
 				redirectTo:'/home'
 			})

@@ -3,16 +3,16 @@ var express 	= require ('express');
 	fs			= require('fs');
 	freestyle 	= require('freestyle');
 
-app.use(express.static(__dirname + './../app/'));
+// app.use(express.static(__dirname + './../app/'));
 
-app.listen(8080,function(){
-		console.log('Server Started on http://localhost:8080');
-		console.log('Press CTRL + C to stop server');
-});
+// app.listen(8080,function(){
+// 		console.log('Server Started on http://localhost:8080');
+// 		console.log('Press CTRL + C to stop server');
+// });
 
-app.get('/', function(req, res) {
-	res.send('Express is running!');
-});
+// app.get('/', function(req, res) {
+// 	res.send('Express is running!');
+// });
 
 var s = fs.createReadStream(process.argv[2] || ('text.txt'));
 

@@ -4,7 +4,7 @@
         .module('coderPoem')
         .service('poemSrv', PoemService);
 
-    function PoemService() {
+    function PoemService($http) {
         var self = this;
 
         self.poem = POEM_DATA;
@@ -12,7 +12,15 @@
         self.newPoem = newPoem;
 
         function newPoem(){
-        	return self.poem;
+        	// return self.poem;
+        	// if(!self.poem){
+        		return $http.get('/api/poems/')
+        		.then(function(res){
+        			console.log(res);
+        			self.poem = res.data.poem;
+        			return res.data.poem;
+        		})
+        	// }
         };
       }
 

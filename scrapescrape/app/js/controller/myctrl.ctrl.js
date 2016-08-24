@@ -10,7 +10,15 @@
 			// self.poem = "blah"
 
 			self.poemSrv = poemSrv;
-			self.poem = poemSrv.newPoem();
+			self.poem = "";
+			self.getPoem = getPoem;
+
+			function getPoem(){
+				poemSrv.newPoem().then(function(result){
+					console.log(result);
+					self.poem = result;
+				});
+			}
 
 			// function thisPoem(){
 			// 	return poemSrv.newPoem();

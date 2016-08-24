@@ -9,7 +9,7 @@
 			$routeProvider
 
 			.when('/home', {
-				templateUrl:'app/partials/poem.html',
+				templateUrl:'partials/poem.html',
 				controller:'PoemCtrl as ctrl',
 			})
 

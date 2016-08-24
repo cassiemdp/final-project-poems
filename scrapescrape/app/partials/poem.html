@@ -14,13 +14,7 @@
 				Did you fall in love on the subway today? Maybe the grocery store? At some park? The coffee shop where you go every morning?
 				Did you have a conversation with someone but didn’t get their number? Maybe you didn’t say anything at all. You just stared, enthralled with all the feelings of love at first sight. Are you thinking you missed your chance?</p>
 				<p><center>Don’t worry, you can post an ad in <span class="heart">Missed Connections</span>.</center></p>
-				<p>Was the connection so intense you still find yourself without words? Yet you want to impress, you want to draw them in. Perhaps you aren’t really that creative. Maybe it has all been a lie and your claims of creativity are actually just about productivity and returns. Such delusions!</p>
-				<p>Or it’s possible you really are creative but you had to be creative at work all day while problem solving, team managing, idea generating - whatever it is that you do - and you are exhausted. So tired of being creative! You couldn’t even open your mouth to talk to them anyway, how are you supposed to think of some interesting thing to say? You’re in luck, you’ve come to the right place.
-				Here it is, a poem generator comprised of many words from many lonely longing hearts putting it all out there, reaching out to that special anonymous someone - just like you're about to do right now.</p>
-				<p>It doesn’t matter if these words aren’t yours because it’s all been said before, right? Afterall, creativity is problem solving and this is the best solution for your problem. You're not stealing anything, the best things in life are free. Promise.</p>
-				<p>The truth of the matter is, who you’re pining after probably won’t end up seeing your sad ad, they're probably living their life. Besides, your object of desire is an illusion anyway. If they do see it, wonderful. So happy for you. But at the end of the day, we all know it’s not really about the destination, it’s about the journey.
-				Enjoy.
-				</p>
+				
 
 				<div class="col-m-12">
 					<div class="buttonb center-block">
@@ -40,11 +34,11 @@
 	    									<div class="modal-body center-block">
 					      					<h5>Instructions</h5>
 					      					<p>Simply press the button below and your poem will be generated. If you decide that it has encapsulated the essence of what you wish to convey to your unsuspecting would-be loved one, you may copy it to your clipboard or press the button again to populate another.</p>
-					      					<button type="button" class="ghost-button2">Create Poem</button>&nbsp;&nbsp;<button type="button" class="ghost-button2">Copy to Clipboard</button>
+					      					<button type="button" class="ghost-button2" ng-click="ctrl.getPoem()">Create Poem</button>&nbsp;&nbsp;<button type="button" class="ghost-button2">Copy to Clipboard</button>
 					      					<div class="poembody">
-												<p>
+												<p><pre>
 												{{ctrl.poem}}
-												</p>
+												</pre></p>
 											</div>
 					     					</div>
 				    					</div>

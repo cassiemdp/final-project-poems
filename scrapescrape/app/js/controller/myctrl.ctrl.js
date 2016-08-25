@@ -19,16 +19,6 @@
 					self.poem = result;
 				});
 			}
-
-			// function thisPoem(){
-			// 	return poemSrv.newPoem();
-			// }
-	  		// self.newPoem = poemSrv.getPoem();
-
-	  		// below is the function for the generator button
-	  		// poemGen.newPoem = function(){
-	  			// function that is bound to service that populates with new poem
-	  		// }
-
 	}
+	
 })();

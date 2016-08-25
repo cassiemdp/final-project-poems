@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clipboard": "^1.5.12",
     "rss-parser": "^2.5.1"
   }
 }

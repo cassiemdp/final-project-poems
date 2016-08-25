@@ -34,11 +34,15 @@
 	    									<div class="modal-body center-block">
 					      					<h5>Instructions</h5>
 					      					<p>Simply press the button below and your poem will be generated. If you decide that it has encapsulated the essence of what you wish to convey to your unsuspecting would-be loved one, you may copy it to your clipboard or press the button again to populate another.</p>
-					      					<button type="button" class="ghost-button2" ng-click="ctrl.getPoem()">Create Poem</button>&nbsp;&nbsp;<button type="button" class="ghost-button2">Copy to Clipboard</button>
-					      					<div class="poembody">
-												<p><pre>
-												{{ctrl.poem}}
-												</pre></p>
+					      					<button type="button" class="ghost-button2" ng-click="ctrl.getPoem()">Create Poem</button>&nbsp;&nbsp;<button type="button" class="ghost-button2" ngclipboard data-clipboard-action="copy" data-clipboard-target="#copy">Copy to Clipboard</button>
+					      					<div class="poembody" id="copy">
+					      						<span us-spinner></span>
+													<p>
+<pre>
+{{ctrl.poem}}
+</pre>
+													</p>
+												<!-- <span us-spinner="{radius:10, width:4, length: 8}"></span> -->
 											</div>
 					     					</div>
 				    					</div>

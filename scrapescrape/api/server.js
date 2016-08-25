@@ -30,12 +30,3 @@ app.get('/api/poems/', function(req, res) {
 
 });
 
-
-
-/* TODO:
- 1. write code to get server running
- 2. define endpoint to return poem
- 	- call freestyle()
- 	- send the result of freestyle()
-*/
-

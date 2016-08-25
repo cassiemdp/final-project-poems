@@ -1,6 +1,6 @@
 (function(){
 	angular
-		.module('coderPoem', ['ngRoute']);
+		.module('coderPoem', ['ngRoute', 'ngLoadingSpinner', 'ngclipboard']);
 
 	angular
 		.module('coderPoem')
